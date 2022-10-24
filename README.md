@@ -1,0 +1,1 @@
+"Create personalized messages for all your members in a snap"
