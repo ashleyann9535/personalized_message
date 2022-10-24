@@ -1,4 +1,4 @@
-const MemberController = require('../controllers/member.controllers');
+const MemberController = require('../controllers/member.controller');
 
 module.exports = (app) => {
     app.get('/api/member', MemberController.getMembers);
