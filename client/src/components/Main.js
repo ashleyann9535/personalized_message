@@ -20,11 +20,9 @@ const Main = () => {
   return (
     <div>
       <h1>Create your message</h1>
-
-      <Link to={"/createMember"}>+</Link>
       <div className="row">
         <div className="col-3">
-          <h3>List</h3>
+          <h3>List <Link to={"/createMember"}>+</Link> </h3>
           <MemberList list={list} />
         </div>
         <div className="col-9">
